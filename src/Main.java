@@ -23,7 +23,10 @@ public class Main {
     }
     // 2. add
     public static int addTwo(int num1, int num2, int num3, int num4) {
-        return num1 + num2 + num3 + num4;
+        int sum1 = add(num1, num2);
+        int sum2 = add(sum1, num3);
+        int sum3 = add(sum2, num4);
+            return(sum3);
     }
 
     // 3. morningGreeting
